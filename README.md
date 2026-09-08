@@ -54,6 +54,7 @@ Drop-in libraries and framework plugins. Several call a solving API under the ho
 **Node.js**
 
 - [puppeteer-extra-plugin-turnstile](https://github.com/CircuitSavage/puppeteer-extra-plugin-turnstile) — `puppeteer-extra` plugin that auto-solves Turnstile by reading the sitekey off the page.
+- [crawlee-turnstile](https://github.com/CircuitSavage/crawlee-turnstile) — Clears the Turnstile wall inside a Crawlee `PlaywrightCrawler`/`PuppeteerCrawler` `requestHandler`; reuses a natively earned token, solves via Peak otherwise.
 
 ## Framework guides
 
