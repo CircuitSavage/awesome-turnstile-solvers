@@ -44,6 +44,7 @@ Drop-in libraries and framework plugins. Several call a solving API under the ho
 - [scrapy-turnstile](https://github.com/CircuitSavage/scrapy-turnstile) — Scrapy middleware that solves Turnstile inline so blocked spiders keep running.
 - [playwright-turnstile](https://github.com/CircuitSavage/playwright-turnstile) — Token injection for Playwright, works headless on datacenter IPs.
 - [selenium-turnstile](https://github.com/CircuitSavage/selenium-turnstile) — Injects a valid token in Selenium, no physical click.
+- [nodriver-turnstile](https://github.com/CircuitSavage/nodriver-turnstile) — Turnstile in a [nodriver](https://github.com/ultrafunkamsterdam/nodriver) browser (the modern undetected-chromedriver successor); reads the sitekey, solves via Peak, injects the token. Async, proxy-aware.
 - [camoufox-turnstile](https://github.com/CircuitSavage/camoufox-turnstile) — Turnstile in Camoufox (anti-detect Firefox); returns the token Camoufox earns on its own, solves via Peak when it stalls.
 - [scrapling-turnstile](https://github.com/CircuitSavage/scrapling-turnstile) — Turnstile in Scrapling's `StealthyFetcher`; reuses a natively earned token, solves via Peak when the fetch hits the 403/widget.
 - [turnstile-curl](https://github.com/CircuitSavage/turnstile-curl) — Solve Turnstile from `curl_cffi` with no browser.
