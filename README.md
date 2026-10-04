@@ -61,6 +61,10 @@ Drop-in libraries and framework plugins. Several call a solving API under the ho
 
 - [peakfo-go](https://github.com/CircuitSavage/peakfo-go) — Official Go client for the Peak API: proxied and proxyless Turnstile, the 5s challenge, balance.
 
+**AI agent frameworks**
+
+- [langchain-turnstile](https://github.com/CircuitSavage/langchain-turnstile) — A LangChain `Tool` that solves Turnstile via Peak, for agents that hit a challenge while browsing. Not a browser wrapper: pure request/response, so it works with whatever browsing stack the agent already drives.
+
 ## Framework guides
 
 Practical write-ups on getting past Turnstile in common stacks.
