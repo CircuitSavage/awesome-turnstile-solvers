@@ -64,6 +64,7 @@ Drop-in libraries and framework plugins. Several call a solving API under the ho
 **AI agent frameworks**
 
 - [langchain-turnstile](https://github.com/CircuitSavage/langchain-turnstile) — A LangChain `Tool` that solves Turnstile via Peak, for agents that hit a challenge while browsing. Not a browser wrapper: pure request/response, so it works with whatever browsing stack the agent already drives.
+- [crewai-turnstile](https://github.com/CircuitSavage/crewai-turnstile) — A CrewAI `BaseTool` that solves Turnstile via Peak, for crew agents that hit a challenge while browsing. Same pure request/response design as langchain-turnstile, built for `crewai.tools.BaseTool`.
 
 ## Framework guides
 
