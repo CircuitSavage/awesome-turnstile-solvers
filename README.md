@@ -50,6 +50,8 @@ Drop-in libraries and framework plugins. Several call a solving API under the ho
 - [drissionpage-turnstile](https://github.com/CircuitSavage/drissionpage-turnstile) — Turnstile in a [DrissionPage](https://github.com/g1879/DrissionPage) `ChromiumPage`; waits for the browser to earn its own token, solves via Peak when it stalls.
 - [turnstile-curl](https://github.com/CircuitSavage/turnstile-curl) — Solve Turnstile from `curl_cffi` with no browser.
 - [crawl4ai-turnstile](https://github.com/CircuitSavage/crawl4ai-turnstile) — Turnstile solving for Crawl4AI crawls.
+- [pydoll-turnstile](https://github.com/CircuitSavage/pydoll-turnstile) — Turnstile in [pydoll](https://github.com/autoscrape-labs/pydoll) (drives Chrome over CDP, no webdriver); reads the sitekey, solves via Peak, injects the token. Async, proxy-aware.
+- [botasaurus-turnstile](https://github.com/CircuitSavage/botasaurus-turnstile) — Turnstile in [Botasaurus](https://github.com/omkarcloud/botasaurus); for when the anti-detect driver gets you to the page but the widget still stalls.
 - [Theyka/Turnstile-Solver](https://github.com/Theyka/Turnstile-Solver) — Browser-automation Turnstile solver.
 - [sarperavci/CloudflareBypassForScraping](https://github.com/sarperavci/CloudflareBypassForScraping) — Bypass toolkit for the Cloudflare interstitial.
 
